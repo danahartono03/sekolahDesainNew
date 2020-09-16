@@ -1,0 +1,21 @@
+fun Hello(name : String?) {
+    if (name == null) {
+        println("Hello world")
+    }
+       else if (name == "") {
+        println("hello world")
+    }
+       else {
+        println("hello $name " )
+    }
+
+}
+
+fun main() {
+    Hello("John")
+    Hello("Alice")
+    Hello(null)
+    Hello("")
+
+
+}
